@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<MarcaResponse
+			xmlns="http://tempuri.org/">
+			<MarcaResult>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;transacciones
+				xmlns=""&gt;&lt;marca
+				id="AA"&gt;ACURA&lt;/marca&gt;&lt;marca id="AO"&gt;ALFA ROMEO&lt;/marca&gt;&lt;marca
+				id="AI"&gt;AUDI&lt;/marca&gt;&lt;marca id="BC"&gt;BAIC&lt;/marca&gt;&lt;marca
+				id="BW"&gt;BMW&lt;/marca&gt;&lt;marca id="BU"&gt;BUICK&lt;/marca&gt;&lt;marca
+				id="BU"&gt;BUIK&lt;/marca&gt;&lt;marca id="CD"&gt;CADILLAC&lt;/marca&gt;&lt;marca
+				id="CH"&gt;CHEVROLET&lt;/marca&gt;&lt;marca id="CR"&gt;CHRYSLER&lt;/marca&gt;&lt;marca
+				id="DG"&gt;DODGE&lt;/marca&gt;&lt;marca id="FT"&gt;FIAT&lt;/marca&gt;&lt;marca
+				id="FD"&gt;FORD&lt;/marca&gt;&lt;marca id="GC"&gt;GMC&lt;/marca&gt;&lt;marca
+				id="HA"&gt;HONDA&lt;/marca&gt;&lt;marca id="HI"&gt;HYUNDAI&lt;/marca&gt;&lt;marca
+				id="JC"&gt;JAC&lt;/marca&gt;&lt;marca id="JR"&gt;JAGUAR&lt;/marca&gt;&lt;marca
+				id="JE"&gt;JEEP&lt;/marca&gt;&lt;marca id="KA"&gt;KIA&lt;/marca&gt;&lt;marca id="LR"&gt;LAND
+				ROVER&lt;/marca&gt;&lt;marca id="LI"&gt;LINCOLN&lt;/marca&gt;&lt;marca
+				id="MA"&gt;MAZDA&lt;/marca&gt;&lt;marca id="MZ"&gt;MERCEDES BENZ&lt;/marca&gt;&lt;marca
+				id="MN"&gt;MINI&lt;/marca&gt;&lt;marca id="MI"&gt;MITSUBISHI&lt;/marca&gt;&lt;marca
+				id="NN"&gt;NISSAN&lt;/marca&gt;&lt;marca id="PT"&gt;PEUGEOT&lt;/marca&gt;&lt;marca
+				id="PE"&gt;PORSCHE&lt;/marca&gt;&lt;marca id="RT"&gt;RENAULT&lt;/marca&gt;&lt;marca
+				id="ST"&gt;SEAT&lt;/marca&gt;&lt;marca id="SM"&gt;SMART&lt;/marca&gt;&lt;marca
+				id="SU"&gt;SUBARU&lt;/marca&gt;&lt;marca id="SI"&gt;SUZUKI&lt;/marca&gt;&lt;marca
+				id="TA"&gt;TOYOTA&lt;/marca&gt;&lt;marca id="VW"&gt;VOLKSWAGEN&lt;/marca&gt;&lt;marca
+				id="VO"&gt;VOLVO&lt;/marca&gt;&lt;error&gt;&lt;/error&gt;&lt;/transacciones&gt;
+			</MarcaResult>
+		</MarcaResponse>
+	</soap:Body>
+</soap:Envelope>

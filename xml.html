@@ -1,0 +1,112 @@
+
+
+
+
+a. Cotización express
+
+    <json>
+        {
+            "idAgente": 93382,                      // Opcional    / getListAgentes / sesión iniciada
+            "datosPoliza": {
+                "idNegocio": "43",                  // Obligatorio / getListNegocios
+                "idProducto": 191,                  // Obligatorio / getListProductos
+                "idTipoPoliza": 83                  // Obligatorio / getListTiposPoliza
+            },
+            "zonaCirculacion": {
+                "idEstadoCirculacion": 21000,       // Obligatorio / getListEstados
+                "idMunicipioCirculacion": 21115,    // Obligatorio / getListMunicipios
+                "codigoPostalCirculacion": 72000    // Obligatorio / ódigo Postal de CirculaciónC
+            },
+            "vehiculo": {
+                "idLineaNegocio": 755,              // Obligatorio / getListLineasNegocio
+                "idMarca": 340,                     // Obligatorio / getListMarcas
+                "modelo": 2019,                     // Obligatorio / getListModelos
+                "idEstilo": 88785                   // Obligatorio / buscarEstilo
+            },
+            "paquete": {
+                "idPaquete": 678,                   // Obligatorio / getListPaquetes
+                "idFormaPago": 1                    // Obligatorio / getListFormasDePago
+            }
+        }
+    </json>
+
+
+b. Cotizar para personas físicas o morales usando clientes existentes
+
+<json>
+    {
+        "idAgente": 93382,                      // Opcional    / getListAgentes / sesión iniciada
+        "datosPoliza": {
+            "idNegocio": "43",                  // Obligatorio / getListNegocios
+            "idProducto": 191,                  // Obligatorio / getListProductos
+            "idTipoPoliza": 83                  // Obligatorio / getListTiposPoliza
+        },
+        "zonaCirculacion": {
+            "idEstadoCirculacion": 21000,       // Obligatorio / getListEstados
+            "idMunicipioCirculacion": 21115,    // Obligatorio / getListMunicipios
+            "codigoPostalCirculacion": 72000    // Obligatorio / ódigo Postal de CirculaciónC
+        },
+        "vehiculo": {
+            "idLineaNegocio": 755,              // Obligatorio / getListLineasNegocio
+            "idMarca": 340,                     // Obligatorio / getListMarcas
+            "modelo": 2019,                     // Obligatorio / getListModelos
+            "idEstilo": 88785                   // Obligatorio / buscarEstilo
+        },
+        "paquete": {
+            "idPaquete": 678,                   // Obligatorio / getListPaquetes
+            "idFormaPago": 1                    // Obligatorio / getListFormasDePago
+        },
+        "contratante": {
+        "idContratante": 1651582                // Obligatorio / buscarCliente
+        }
+    }
+</json>
+
+
+c. Cotizar para personas físicas usando clientes nuevos
+d. Cotizar para personas Morales usando clientes nuevos
+e. Cotizar enviando coberturas
+
+<json>
+    {
+        "datosPoliza": {
+        "idNegocio": "'.$idNegocio.'",
+        "idProducto": "'.$idProducto.'",
+        "idTipoPoliza": "'.$idTipoPoliza.'"
+        },
+        "zonaCirculacion": {
+        "idEstadoCirculacion": "'.$idEstadoCirculacion.'",
+        "idMunicipioCirculacion": "'.$idMunicipioCirculacion.'",
+        "codigoPostalCirculacion": "'.$codigoPostalCirculacion.'"
+        },
+        "vehiculo": {
+        "idLineaNegocio": "'.$idLineaNegocio.'",
+        "idMarca": "'.$idMarca.'",
+        "modelo": "'.$modelo.'",
+        "idEstilo": "'.$idEstilo.'"
+        },
+        "paquete": {
+        "idPaquete": "'.$idPaquete.'",
+        "idFormaPago": "'.$idFormaPago.'"
+        },
+        "contratante": {
+        "idContratante": 1651582
+        },
+        "coberturas": [{
+        "idCobertura": 2520,
+        "obligatoriedad": 2,
+        "contratada": false,
+        "descripcion": "VALOR GARANTIZADO AFIRME",
+        "sumaAsegurada": "Amparada",
+        "deducible": 0.0
+        }]
+    }
+    </json>
+
+
+
+f. Cotizar enviando datos del conductor y del asegurado 
+g. Cotizar conducto cobro con tarjeta
+
+
+
